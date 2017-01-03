@@ -1,0 +1,8 @@
+.container>.navbar>.navbar-brand>#hotpot-img{
+    background: url("assets/huoguo.jpeg") 0 bottom no-repeat;
+    -webkit-background-size:cover;
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+}
