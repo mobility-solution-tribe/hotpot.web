@@ -9,7 +9,6 @@ import { CarouselModule } from 'ng2-bootstrap/carousel';
 
 import {AppComponent} from './app.component';
 import {MenuComponent} from './menu/menu.component';
-import {DashboardComponent} from './dashboard/dashboard.component';
 import {BannerComponent} from "./banner/banner.component";
 
 @NgModule({
@@ -19,7 +18,6 @@ import {BannerComponent} from "./banner/banner.component";
     declarations:[
         MenuComponent,
         BannerComponent,
-        DashboardComponent,
         AppComponent],
     bootstrap:[AppComponent]
 })

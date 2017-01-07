@@ -17,7 +17,6 @@ var platform_browser_1 = require('@angular/platform-browser');
 var carousel_1 = require('ng2-bootstrap/carousel');
 var app_component_1 = require('./app.component');
 var menu_component_1 = require('./menu/menu.component');
-var dashboard_component_1 = require('./dashboard/dashboard.component');
 var banner_component_1 = require("./banner/banner.component");
 var AppModule = (function () {
     function AppModule() {
@@ -30,7 +29,6 @@ var AppModule = (function () {
             declarations: [
                 menu_component_1.MenuComponent,
                 banner_component_1.BannerComponent,
-                dashboard_component_1.DashboardComponent,
                 app_component_1.AppComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
