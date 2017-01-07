@@ -1,0 +1,13 @@
+<div class="bannerContainer">
+    <carousel [interval]="5000" [noWrap]="false" [(activeSlide)]="activeSlideIndex">
+        <slide *ngFor="let slidez of slides; let index=index">
+            <img [src]="slidez.image" style="margin:auto;width:100%;">
+
+            <div class="carousel-caption">
+                <!--<h4>Slide {{index}}</h4>-->
+
+                <p>{{slidez.text}}</p>
+            </div>
+        </slide>
+    </carousel>
+</div>

@@ -5,13 +5,22 @@ import "./rxjs-extensions"
 
 import {NgModule} from '@angular/core'
 import {BrowserModule} from '@angular/platform-browser'
+import { CarouselModule } from 'ng2-bootstrap/carousel';
 
-import {AppComponent} from './app.component'
-import {MenuComponent} from './menu/menu.component'
+import {AppComponent} from './app.component';
+import {MenuComponent} from './menu/menu.component';
+import {DashboardComponent} from './dashboard/dashboard.component';
+import {BannerComponent} from "./banner/banner.component";
 
 @NgModule({
-    imports:[BrowserModule],
-    declarations:[MenuComponent, AppComponent],
+    imports:[
+        BrowserModule,
+        CarouselModule.forRoot()],
+    declarations:[
+        MenuComponent,
+        BannerComponent,
+        DashboardComponent,
+        AppComponent],
     bootstrap:[AppComponent]
 })
 export class AppModule{}
